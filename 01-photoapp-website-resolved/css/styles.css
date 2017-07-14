@@ -1,0 +1,150 @@
+body {
+	box-sizing: border-box;
+}
+
+.wrapped {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav.navbar.navbar-default {
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand.main-color {
+	color: #00b19a;
+}
+
+.cover {
+	height: 580px;
+	margin-top: 0;
+	padding-top: 40px;
+	color: white;
+	overflow: hidden;
+	background-image: url("../material/img/site_showcase_bg.jpg")
+}
+
+div.jumbotron.main-block {
+  background-color: white;
+}
+
+.cover h1 {
+  font-size: 50px;
+  margin-top:100px;
+  margin-bottom: 30px;
+}
+
+.cover h1 span {
+  color: #1caa98;
+}
+
+.aside {
+	background-color: #00b19a;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+.features-list {
+	padding-left: 100px;
+}
+
+.features-list h3 {
+	color: white;
+}
+
+.features-list ul {
+	list-style: none;
+}
+
+.features-list ul li {
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: white;
+}
+
+li .glyphicon.glyphicon-ok {
+	padding-right: 5px;
+	color: white;
+}
+
+.camera {
+	padding-left: 50px;
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #333333;
+	overflow: hidden;
+}
+
+.footer nav ul li a{
+	align-items: center;
+	color: white;
+}
+
+ul.nav li{
+    display: inline-block;
+}
+
+.footer p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0;
+	display: inline-block;
+	color: white;
+	justify-content: flex-end;
+}
+
+.subheader {
+	height: 70px;
+	background-color: #00b19a;
+	color: white;
+	margin: 0;
+}
+
+div.jumbotron {
+	margin-bottom: 0;
+	background-color: white;
+}
+
+.jumbotron p {
+	font-size: 13px;
+}
+
+@media (max-width: 990px) {
+	.aside {
+		text-align: center;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer p {
+		display: flex;
+		justify-content: center;
+	}
+	.camera {
+		padding-left: 0;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.features-list {
+		padding-left: 0;
+	}
+	.cover-left{
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.cover .logos-app-stores img {
+    	display: block;
+    	margin: 15px auto;
+  	}
+}
+
