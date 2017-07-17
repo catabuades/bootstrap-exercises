@@ -1,0 +1,90 @@
+body {
+	background-color: #ededed;
+	box-sizing: border-box;
+}
+
+.container.wrapped {
+	margin-top: 200px;
+	padding: 0;
+	border: 1px solid 	#D3D3D3;
+	background-color: white;
+}
+
+.page-header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -150px;
+}
+
+.page-header h1 {
+	text-align: center;
+}
+
+/*.left-column {
+	padding-right: 10px;
+}*/
+
+/*.right-column {
+	margin-left: 10px;
+	margin-right: 20px;
+}*/
+
+.capsule {
+    background-color: #ededed;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+div.col-md-6.education {
+	padding: 0;
+}
+
+.glyphicon.glyphicon-ok {
+	margin-right: 10px;
+}
+
+i {
+	margin-right: 10px;
+}
+
+.aboutme {
+	margin-left: 12px;
+}
+
+.education {
+	margin-left: 10px;
+}
+
+.services {
+	padding-left: 25px;
+	margin-bottom: 30px;
+}
+
+.contact {
+	margin-right: 15px;
+}
+
+.skills {
+	margin-right: 15px;
+}
+
+.logos {
+	margin-right: 15px;
+}
+
+.panel-footer {
+	background-color: #3b5a76;
+	color: white;
+	flex-direction: flex;
+	align-items: flex-end;
+	padding-left: 110px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media (min-width: 700px) {
+	
+}
